@@ -18,7 +18,7 @@ steps:
 - task: VSBuild@1
   displayName: 'WideWorldImportersDW'
   inputs:
-    solution: 'samples/databases/wide-world-importers/wwi-dw-ssdt/WideWorldImportersDW.sln'
+    solution: 'samples/databases/wide-world-importers/wwi-dw-ssdtWideWorldImportersDW.sln'
     configuration: '$(BuildConfiguration)'
 
 - task: CopyFiles@2
